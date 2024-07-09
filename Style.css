@@ -1,0 +1,196 @@
+
+/*for the header style*/
+.header{
+	height: 100px;
+
+}
+/*for the navbar style*/
+.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+	text-transform: uppercase;
+}
+/* for logo style */
+.logo
+{
+	height: 60px;
+	padding: 0px 10px;
+}
+/* to style the logo in the navbar */
+.icon-bar{
+	background:  #ff8c00;
+}
+/* style for the list which are above in the header*/
+ li a {
+	color: orange;
+	font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:100px;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+/* Class to style the text */
+.big-test{
+	font-size: 52px;
+	margin: 20px 0;
+	color:  #ff8c00;
+	font-family: "Playwrite US Modern", cursive;
+	font-optical-sizing: auto;
+	font-weight: 100px;
+	font-style: normal;
+}
+/* style for the first and second button in the main text */
+a.btn-first{
+padding: 15px 25px;
+ border: unset;
+ border-radius: 15px;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+a.btn-first::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	border-radius: 15px;
+	background-color: #212121;
+	z-index: -1;
+	transition: all 250ms
+   }
+a.btn-first:hover{
+	color: #ff8c00;
+}
+a.btn-first:hover::before {
+	width: 100%;
+   }
+/*********** For Large screen only***********/
+@media(min-width: 1200px){
+
+}
+/*********For Medium devices only **********/
+@media(min-width: 992px) and (max-width: 1199px){
+	.logo{
+	height: 90px;
+	padding: 2px 10px;
+}
+}
+/******** For Small devices only*********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/************ For Extra large only*********/
+@media(min-width: 768px) and (max-width: 991px){
+	.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+	text-transform: uppercase;
+}
+}
+.footer{
+    background-color: orange;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    width: 100%;
+    background-size: 50%;
+	font-family: "Playwrite US Modern", cursive;
+	font-optical-sizing: auto;
+	font-weight: 100px;
+	font-style: normal;
+   }
+/* Style all font awesome icons */
+.fa {
+	padding: 30px;
+	font-size: 20px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	border-radius:20%;
+	margin: 5px 2px;
+  }
+  /* Add a hover effect*/
+.fa:hover {
+	opacity: 0.7;
+	color:black;
+  }
+  /* Set specific colors for each brand */
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+.fa-instagram {
+	background: #f70404;
+	color: white;
+}  
+/****** future reference********
+.fa-snapchat {
+	background:rgb(245, 245, 0);
+	color: white;
+}***********************************/
+.address{
+	font-size: 18px;
+	padding: 30px;
+}
+.foo{
+	padding-bottom: 50px;
+}
+.home {
+	padding: .9rem 1.5rem;
+	padding-top: 10px;
+	border: .2rem solid #443;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	color: rgb(255, 255, 255);
+	background: none;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 1.7rem;
+	transition: all .2s linear;
+}
+.home:hover {
+	border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;
+	border: .2rem dashed #443;
+  }
+.signup {
+	padding: .9rem 1.5rem;
+	border: .2rem solid #443;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	color: rgb(255, 255, 255);
+	background: none;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 1.7rem;
+	transition: all .2s linear;
+}
+.signup:hover{
+	border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;
+	border: .2rem dashed #443;
+}
+.hi{
+	font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.hello{
+	font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:100px;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.row{
+	text-align: center;
+}
